@@ -23,17 +23,8 @@ frontend/yarn-debug.log*
 frontend/yarn-error.log*
 frontend/.pnpm-debug.log*
 
-# local env files
-frontend/.env*.local
-
-# vercel
-frontend/.vercel
-
 frontend/.vscode
 # typescript
 frontend/*.tsbuildinfo
 frontend/next-env.d.ts
 frontend/.env
-
-# Scripts
-frontend/getUsersEmails.ts
