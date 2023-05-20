@@ -43,15 +43,7 @@ const Home: NextPage = () => {
 
   const fetcher = (url: string) => fetch(url).then((res) => res.json());
   const { data, mutate } = useSWR("/api/remaining", fetcher);
-  //const { data: session, status } = useSession();
-
-  const session = {
-    user:{
-      image: "/eve.jpg",
-      email: "coolfred8832@gmail.com"
-    }
-  };
-  const status = "authenticated";
+  const { data: session, status } = useSession();
 
   const options = {
     maxFileCount: 1,
