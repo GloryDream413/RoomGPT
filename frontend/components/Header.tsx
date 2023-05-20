@@ -56,7 +56,7 @@ export default function Header({
           className="flex max-w-fit items-center justify-center space-x-2 rounded-lg border border-blue-600 text-white px-5 py-2 text-sm shadow-md hover:bg-blue-400 bg-blue-600 font-medium transition"
           href="/dream"
         >
-          <p>Sign Up </p>
+          <p>Log In</p>
         </Link>
       )}
     </header>
