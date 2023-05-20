@@ -5,7 +5,6 @@ import Link from "next/link";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import SquigglyLines from "../components/SquigglyLines";
-import { Testimonials } from "../components/Testimonials";
 
 const Home: NextPage = () => {
   return (
@@ -70,7 +69,6 @@ const Home: NextPage = () => {
           </div>
         </div>
       </main>
-      <Testimonials />
       <Footer />
     </div>
   );
